@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --name "[@make]PasswordHash" --icon "pasgene.ico" --collect-data PySide6:qt6_plugins/platforms  "[@make]PasswordHash.py"
